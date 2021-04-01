@@ -1,0 +1,37 @@
+@import "libs/resetcss";
+@import "libs/slick";
+@import "base/fonts"; 
+@import "base/animations";
+@import "base/media";
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #3B3D46;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+.page {
+    width: 100%;
+    overflow: hidden;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+@import "components/btns";
+@import "components/navbar";
+@import "components/header";
+@import "components/benefits";
+@import "components/request";
+@import "components/faq";
+@import "components/contacts";
+@import "components/info";
+@import "components/footer";

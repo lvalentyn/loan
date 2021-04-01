@@ -1,0 +1,16 @@
+.btn {
+    padding: 11px 23px;
+    font-weight: bold;
+    color: #00B4E3; 
+    background-color: #fff;
+    border: 1px solid #00B4E3;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease;
+    &.header__btn {
+        padding: 20px 55px;
+        color: #FFFFFF;
+        background: #00B4E3;
+    }
+}
