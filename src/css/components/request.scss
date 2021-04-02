@@ -1,0 +1,60 @@
+.request {
+    padding: 90px 0;
+    background: #F4F9F9;
+    &__wrapper {
+        padding: 60px 70px;
+        background: #FEFEFE;
+        border-radius: 10px;
+    }
+    &__top {
+        display: flex;
+        align-items: center;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 4rem;
+        line-height: 50px;
+    }
+    &__line {
+        margin: 0 28px 0 80px;
+        width: 2px;
+        height: 60px;
+        background: #00B4E3;
+        border-radius: 10px;
+    }
+    &__descr {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    &__form {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        &_left {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            row-gap: 20px;
+            input {
+                width: calc(50% - 10px);
+                border: 1px solid #E6E6E6;
+                border-radius: 5px;
+                padding: 18px 20px;
+                opacity: 0.6;
+            }
+        }
+        &_right {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                margin-top: 28px;
+                font-size: 1.4rem;
+                line-height: 22px;
+                text-align: center;  
+            }
+        }
+    }
+}

@@ -2,21 +2,17 @@
 /* Jquery */
 $(document).ready(function () {
     // burger 
-    // const brg = document.querySelector('.burger');
-    // $('.burger').click(function () {
-    //     $('.burger, .navbar__menu').toggleClass('active');
-    // });
-    // $('.burger, .navbar__menu').click(function () {
-    //     $('.burger, .navbar__menu').removeClass('active');
-    // });
+    $('.burger').click(function () {
+        $('.burger, .navbar__menu').toggleClass('active');
+    });
     // navmenu on scroll
-    // $(window).scroll(function () {
-    //     if (this.scrollY > 40) {
-    //         $('.navbar').addClass('sticky');
-    //     } else {
-    //         $('.navbar').removeClass('sticky');
-    //     }
-    // });
+    $(window).scroll(function () {
+        if (this.scrollY > 40) {
+            $('.navbar').addClass('sticky');
+        } else {
+            $('.navbar').removeClass('sticky');
+        }
+    });
     // slick-sliders
     // $('.benefits__slider').slick({
     //     infinite: true,
@@ -88,7 +84,7 @@ $(document).ready(function () {
     // });
     // маска телефон
     let inputs = document.querySelectorAll('input[type="tel"]');
-    let im = new Inputmask('+38(999) 999-99-99');
+    let im = new Inputmask('+7(999)999-99-99');
     im.mask(inputs);
     // плавная прокрутка
     $("a[href]").click(function () {
@@ -106,9 +102,7 @@ $(document).ready(function () {
                 const animItemHeight = animItem.offsetHeight;
                 const animItemOffset = offset(animItem).top;
                 const animStart = 3;
-
                 let animItemPoint = window.innerHeight - animItemHeight / animStart;
-
                 if (animItemHeight > window.innerHeight) {
                     animItemPoint = window.innerHeight - window.innerHeight / animStart;
                 }
