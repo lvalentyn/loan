@@ -917,7 +917,7 @@ body {
 .header {
   width: 100%;
   margin-top: 96px;
-  background: url(../../img/mainbg.png) center center/cover no-repeat; }
+  background: url(../img/mainbg.png) center center/cover no-repeat; }
   .header__block {
     width: 700px;
     padding: 60px 50px 90px;
