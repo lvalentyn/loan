@@ -6,6 +6,7 @@
         align-items: center;      
     }
     &__title {
+        width: 80%;
         font-weight: 600;
         font-size: 4rem;
         margin-right: 28px;
@@ -34,7 +35,7 @@
         }
         &_title {
             position: relative;
-            padding: 23px 90px;
+            padding: 23px 30px 23px 90px;
             display: flex;
             align-items: center;
             font-weight: 600;

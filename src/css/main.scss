@@ -1,10 +1,10 @@
 @import "libs/resetcss";
-@import "libs/slick";
 @import "base/fonts"; 
 @import "base/animations";
 @import "base/media";
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Gilroy', sans-serif;
@@ -20,6 +20,7 @@ body {
 .page {
     width: 100%;
     overflow: hidden;
+    
 }
 .container {
     width: 1170px;

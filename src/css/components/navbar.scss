@@ -43,8 +43,9 @@
         }
     }
     &.sticky {
-        padding: 15px 0;
-        background: rgba(0, 0, 0, .9);
+        padding: 10px 0;
+        background: #fff;
+        border-bottom: 1px solid #E6E6E6;;
     }
     .burger {
         display:none;

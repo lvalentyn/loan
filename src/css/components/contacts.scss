@@ -15,6 +15,11 @@
         background: #00B4E3;
         border-radius: 10px;
     }
+    &__blocks {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
     &__item {
         &_title {
             font-weight: 600;
