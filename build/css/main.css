@@ -506,6 +506,8 @@ table {
     overflow: hidden; }
   .page .benefits .swiper-pagination {
     bottom: -40px; }
+    .page .benefits .swiper-pagination span {
+      background-color: #00B4E3; }
   .page .request__wrapper {
     padding: 20px 15px; }
   .page .request__top {

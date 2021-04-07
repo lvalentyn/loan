@@ -446,6 +446,9 @@
             }
             .swiper-pagination {
                 bottom: -40px;
+                span {
+                    background-color: #00B4E3;
+                }
             }
         }
         .request {
