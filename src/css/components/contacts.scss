@@ -40,6 +40,13 @@
                 width: 100%;
                 border: 1px dashed #00B4E3;
             }
+            &:hover {
+                color: #5dc7e2;
+                &::before {
+                    
+                    border: 1px dashed #5dc7e2;
+                }
+            }
         }
     }
 }
